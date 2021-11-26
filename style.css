@@ -1142,7 +1142,11 @@ footer{
         align-items: center;
         flex-wrap: wrap;
         flex-grow: 1;
-        border-top: 1px solid #FFFFFF;
+    }
+
+    .wine_shop.second_footer_block, .footer_number.second_footer_block{
+        border-bottom: 1px solid #FFFFFF;
+        border-top: 1px solid #FFFFFF
     }
     
     .me.second_footer_block{
@@ -1341,8 +1345,8 @@ footer{
 
 
 
-
-@media only screen and (width: 375px) and (width: 390px)
+/*
+@media only screen and  (deice-width: 375px) and (device-width: 390px)
  and (device-width: 428px) and (device-width: 414px){ 
 
     .header_buttoms{
@@ -1526,10 +1530,11 @@ footer{
     
     .me.second_footer_block{
         border-bottom: 1px solid #FFFFFF;
-        padding: 14.5px 0;
+        padding: 1.5px 0;
     }
-    
+
     }
+    */
 
 
 
