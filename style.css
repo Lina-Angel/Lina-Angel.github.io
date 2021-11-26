@@ -777,8 +777,7 @@ footer{
     }
 }
 
-
-@media (min-width: 320px) and (max-width: 480px){
+@media (min-width: 460px) and (max-width: 480px){
 
     .header_buttoms{
         display: flex;
@@ -893,7 +892,7 @@ footer{
     }
     
     footer{
-        height: 380px;
+        height: 480px;
     }
 
     .footer_links{
@@ -941,11 +940,15 @@ footer{
     .social_links_footer{
         word-spacing: 35px;
         border: none;
-        padding: 6.5px 35px 6.4px 35px;
-        border-bottom: 1px solid #FFFFFF;
+        margin: 0 auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        padding: 6.5px 0;
+        font-size: 14px;
     }
-
-    .wine_shop.second_footer_block, .footer_number.second_footer_block, .social_links_footer, .me.second_footer_block{
+    
+    .wine_shop.second_footer_block, .footer_number.second_footer_block, .me.second_footer_block,  .social_links_footer{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -953,10 +956,385 @@ footer{
         flex-grow: 1;
         border-top: 1px solid #FFFFFF;
     }
-
+    
     .me.second_footer_block{
         border-bottom: 1px solid #FFFFFF;
-        padding: 14px 0 14px 0;
+        padding: 14px 0;
+    }
+
+}
+
+@media (min-width: 324px) and (max-width: 459px){
+
+    .header_buttoms{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        padding-top: 246px;
+        padding-bottom: 335px;
+    }
+
+    .wine_card{
+        margin-bottom: 30px;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .nav_bar{
+        display: none;
+    }
+
+    .special_header_info{
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 1px;
+    }
+
+    .descroption_about_good_wine{
+        padding: 0 16px 30px 16px;
+        font-size: 14px;
+    }
+
+    .main_info_about_good_wine{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding: 40px 16px 20px 16px;
+    }
+
+    .first_photo_320px, .second_photo_320px{
+        display: block;
+        max-width: 60%;
+    }
+
+    .second_photo_320px{
+        margin-top: 30px;
+    }
+
+
+    .block_of_photo_of_wine_colection_second, .photo_of_wine_colection_main{
+        display: none;
+    }
+
+    .first_footer{
+        padding: 0 0px;
+        border-top: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    fieldset{
+        min-width: 178px;
+    }
+
+    .wrapper_tasting{
+        padding: 0px 20px 40px 20px;
+    }
+
+    .registration_for_tasting_head{
+        font-size: 26px;
+    }
+
+    .registration_for_tasting{
+        padding: 40px 0 0 0;
+    }
+
+    .about_tasting_information{
+        font-size: 14px;
+    }
+
+    .input_flex{
+        flex-wrap: wrap;
+    }
+
+    .footer_links{
+        flex-grow: 1;
+    }
+
+    .wine_shop.second_footer_block, .footer_number.second_footer_block, .me.second_footer_block{
+        font-size: 10px;
+        padding: 14px;
+
+    }
+    
+    .social_links_footer{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .svg_links{
+        margin: 0 5px;
+    }
+    
+    footer{
+        height: 480px;
+    }
+
+    .footer_links{
+        padding: 20px 5px;
+    }
+    
+    .second_footer{
+        padding: 0 36px;
+        border: none;
+    }
+    
+    
+    .second_footer{
+        padding: 0 0px;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .second_footer_our_block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        border: none;
+    }
+    
+    .second_footer_block{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        padding: 14px 0;
+        flex-grow: 1;
+    }
+    
+    .second_footer_block:last-child{
+        border: none;
+    }
+    
+    .social_links_footer{
+        word-spacing: 35px;
+        border: none;
+        margin: 0 auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        padding: 6.5px 0;
+        font-size: 14px;
+        border-bottom: 1px solid #ffffff;
+    }
+    
+    .wine_shop.second_footer_block, .footer_number.second_footer_block, .me.second_footer_block,  .social_links_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        border-top: 1px solid #FFFFFF;
+    }
+    
+    .me.second_footer_block{
+        border-bottom: 1px solid #FFFFFF;
+        padding: 14px 0;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 323px){
+
+    .header_buttoms{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        padding-top: 246px;
+        padding-bottom: 335px;
+    }
+
+    .wine_card{
+        margin-bottom: 30px;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .nav_bar{
+        display: none;
+    }
+
+    .special_header_info{
+        display: flex;
+        padding-top: 10px;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: 1px;
+    }
+
+    .descroption_about_good_wine{
+        padding: 0 16px 30px 16px;
+        font-size: 14px;
+    }
+
+    .main_info_about_good_wine{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding: 40px 16px 20px 16px;
+    }
+
+    .first_photo_320px, .second_photo_320px{
+        display: block;
+        max-width: 60%;
+    }
+
+    .second_photo_320px{
+        margin-top: 30px;
+    }
+
+
+    .block_of_photo_of_wine_colection_second, .photo_of_wine_colection_main{
+        display: none;
+    }
+
+    .first_footer{
+        padding: 0 0px;
+        border-top: 1px solid #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    fieldset{
+        min-width: 178px;
+    }
+
+    .wrapper_tasting{
+        padding: 0px 20px 40px 20px;
+    }
+
+    .registration_for_tasting_head{
+        font-size: 26px;
+    }
+
+    .registration_for_tasting{
+        padding: 40px 0 0 0;
+    }
+
+    .about_tasting_information{
+        font-size: 14px;
+    }
+
+    .input_flex{
+        flex-wrap: wrap;
+    }
+
+    .footer_links{
+        flex-grow: 1;
+    }
+
+    .wine_shop.second_footer_block, .footer_number.second_footer_block, .me.second_footer_block{
+        font-size: 10px;
+        padding: 14px;
+
+    }
+    
+    .social_links_footer{
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    .svg_links{
+        margin: 0 5px;
+    }
+    
+    footer{
+        height: 480px;
+    }
+
+    .footer_links{
+        padding: 20px 5px;
+    }
+    
+    .second_footer{
+        padding: 0 36px;
+        border: none;
+    }
+    
+    
+    .second_footer{
+        padding: 0 0px;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .second_footer_our_block{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        border: none;
+    }
+    
+    .second_footer_block{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+        padding: 14px 0;
+        flex-grow: 1;
+    }
+    
+    .second_footer_block:last-child{
+        border: none;
+    }
+    
+    .social_links_footer{
+        word-spacing: 35px;
+        border: none;
+        margin: 0 auto;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        padding: 6.5px 0;
+        font-size: 14px;
+    }
+    
+    .wine_shop.second_footer_block, .footer_number.second_footer_block, .me.second_footer_block,  .social_links_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        border-top: 1px solid #FFFFFF;
+    }
+    
+    .me.second_footer_block{
+        border-bottom: 1px solid #FFFFFF;
+        padding: 14px 0;
     }
 
 }
