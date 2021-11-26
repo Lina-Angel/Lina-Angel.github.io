@@ -785,8 +785,8 @@ footer{
         justify-content: center;
         flex-wrap: wrap;
         column-gap: 30px;
-        padding-top: 196px;
-        padding-bottom: 205px;
+        padding-top: 246px;
+        padding-bottom: 255px;
     }
 
     .wine_card{
@@ -849,7 +849,7 @@ footer{
         
     }
     fieldset{
-        min-width: 278px;
+        min-width: 178px;
     }
 
     .wrapper_tasting{
@@ -941,7 +941,7 @@ footer{
     .social_links_footer{
         word-spacing: 35px;
         border: none;
-        padding: 6.5px 35px 5.5px 35px;
+        padding: 6px 35px 6px 35px;
         border-bottom: 1px solid #FFFFFF;
     }
 
