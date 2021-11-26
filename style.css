@@ -947,6 +947,10 @@ footer{
         padding: 6.5px 0;
         font-size: 14px;
     }
+
+    .second_footer_our_block{
+        border-top: 1px solid #FFFFFF;
+    }
     
     .wine_shop.second_footer_block, .footer_number.second_footer_block, .me.second_footer_block,  .social_links_footer{
         display: flex;
@@ -954,10 +958,10 @@ footer{
         align-items: center;
         flex-wrap: wrap;
         flex-grow: 1;
-        border-top: 1px solid #FFFFFF;
     }
     
     .me.second_footer_block{
+        border-top: 1px solid #FFFFFF;
         border-bottom: 1px solid #FFFFFF;
         padding: 14px 0;
     }
@@ -1106,6 +1110,7 @@ footer{
         align-items: center;
         text-align: center;
         border: none;
+        border-bottom: 1px solid #FFFFFF;
     }
     
     .second_footer_block{
@@ -1131,9 +1136,8 @@ footer{
         display: flex;
         flex-grow: 1;
         justify-content: center;
-        padding: 6.5px 0 6.75px 0;
+        padding: 6.5px 0;
         font-size: 14px;
-        border-bottom: 1px solid #ffffff;
     }
     
     .wine_shop.second_footer_block, .footer_number.second_footer_block, .me.second_footer_block,  .social_links_footer{
@@ -1150,7 +1154,6 @@ footer{
     }
     
     .me.second_footer_block{
-        border-bottom: 1px solid #FFFFFF;
         padding: 14px 0;
     }
 
