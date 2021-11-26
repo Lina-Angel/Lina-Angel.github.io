@@ -941,7 +941,7 @@ footer{
     .social_links_footer{
         word-spacing: 35px;
         border: none;
-        padding: 6.5px 35px 6.5px 35px;
+        padding: 6.8px 35px 6.5px 35px;
         border-bottom: 1px solid #FFFFFF;
     }
 
@@ -956,7 +956,7 @@ footer{
 
     .me.second_footer_block{
         border-bottom: 1px solid #FFFFFF;
-        padding: 13.5px 0 13.8px 0;
+        padding: 14px 0 14px 0;
     }
 
 }
