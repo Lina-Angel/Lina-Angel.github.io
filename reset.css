@@ -32,7 +32,6 @@ dd {
 
 /* Выставляем основные настройки по-умолчанию для body */
 body {
-  scroll-behavior: smooth !important;
   text-rendering: optimizeSpeed;
   font-style: normal;
   font-weight: normal;
@@ -107,7 +106,7 @@ html, body {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+    scroll-behavior: smooth !important;
   }
 }
 
