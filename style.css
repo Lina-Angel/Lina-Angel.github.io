@@ -825,6 +825,7 @@ footer{
     }
 */
     .header_links_burger{
+    display: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
