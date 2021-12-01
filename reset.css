@@ -103,3 +103,7 @@ html, body {
 input, select {
   outline: none;
 }
+
+*, html{
+  scroll-behavior: smooth;
+}
