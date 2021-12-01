@@ -25,12 +25,6 @@ header{
     color: #FFFFFF;
 }
 
-.nav_header{
-   display: flex;
-   justify-content: space-between;
-   padding: 14px 100px 16px 100px ;
-}
-
 .nav_bar{
     width: 100%;
     display: flex;
