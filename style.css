@@ -4,6 +4,7 @@ header{
     background-image: url(assets/bgc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .wrapper{
@@ -80,8 +81,9 @@ header{
 .header_buttoms{
     display: flex;
     justify-content: center;
+    align-items: center;
     column-gap: 30px;
-    padding-top: 596px;
+    padding-top: 476px;
     padding-bottom: 166px;
 }
 
@@ -109,6 +111,15 @@ header{
     background: #99872ab2;
 }
 
+.burger{
+    display: none;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFFFFF;
+    opacity: .9;
+}
 /*===================================================ABOUT__WINE=======================*/
 
 .first_photo_320px, .second_photo_320px{
@@ -466,6 +477,9 @@ footer{
     fill:#282828;
 }
 
+.footer_number{
+    letter-spacing: 1px;
+}
 
 @media (min-width: 1200px) and (max-width: 1360px) {
 
@@ -794,14 +808,32 @@ footer{
     }
 
     .special_header_info{
+        display: none;
+    }
+/*
+    .burger{
         display: flex;
-        padding-top: 10px;
-        justify-content: center;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 150%;
-        letter-spacing: 1px;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .nav_bar_burger{
+        margin-top: 32px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+    }
+*/
+    .header_links_burger{
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out !important;
+    padding: 13px;
     }
 
     .descroption_about_good_wine{

@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="icon" href="assets/logosvg.svg">
-   <!--  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Wine-Library</title>
 </head>
 <body>
@@ -24,6 +24,14 @@
                 <a  class="header_links" href="#tasting">Дегустация</a>
                 <a  class="header_links" href="#contacts">Контакты</a>
             </div>
+            <div class="burger">
+                <nav class="nav_bar_burger">
+                    <a  class="header_links_burger" href="#we">О нас</a>
+                    <a  class="header_links_burger" href="#collection">Коллекция</a>
+                    <a  class="header_links_burger" href="#tasting">Дегустация</a>
+                    <a  class="header_links_burger" href="#contacts">Контакты</a>
+                </nav>
+            </div>
             <div class="header_buttoms">
                 <a href="#"><button class="wine_card">Винная карта</button></a>
                 <a href="#"><button class="tasting">Дегустация</button></a>
@@ -34,9 +42,11 @@
     <div class="about_good_wine">
         <div class="wrapper_good_wine">
             <div class="info_about_good_wine" id="we">
-                <div class="main_info_about_good_wine">Лучший вкус, это вкус долголетнего вина</div>
+                <div class="main_info_about_good_wine" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">Лучший вкус, это вкус долголетнего вина</div>
                 <div class="hr_about_good_wine"></div>
-                <div class="descroption_about_good_wine">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</div>
+                <div class="descroption_about_good_wine" data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</div>
                 <svg  class="wine_svg_good_wine" width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="160" height="160" fill="url(#pattern0)"/>
                     <defs>
@@ -83,7 +93,7 @@
                 </table>
                 <img class="second_photo_320px" src="assets/3photo_wine_colection.png" alt="wien">
                 <div class="info_about_colection"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac...</div>
-                <a href="#"><button class="more_info_about_colection">Узнать подробнее</button></a>
+                <a href="#"><button class="more_info_about_colection" data-aos="zoom-in-right">Узнать подробнее</button></a>
             </div>
             <div class="photo_of_wine_colection">
                 <img  class="photo_of_wine_colection_main" src="assets/1photo_wine_colection.png" alt="wine">
@@ -169,5 +179,10 @@
         </div>
     
     </footer>
+<script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
