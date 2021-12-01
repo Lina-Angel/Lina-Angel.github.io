@@ -100,7 +100,7 @@ html, body {
   scrollbar-width: 8px;
 }
 
-html, *{
+*, html{
   scroll-behavior: smooth;
 }
 
