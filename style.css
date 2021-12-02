@@ -32,6 +32,22 @@ header{
     justify-content: space-between;
 }   
 
+.second_header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    column-gap: 16px;
+}
+
+.photo_lang{
+    height: 30px;
+    transition: all 0.1s linear;
+}
+
+.photo_lang:hover{
+    transform: scale(1.08, 1.08);
+}
+
 .special_header_info{
     display: none;
     font-family: 'Montserrat', sans-serif;
@@ -169,7 +185,8 @@ header{
 }
 
 .wine_svg_good_wine{
-    margin-bottom: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
 }
 
 /*======================================================================COLECTION==============*/
@@ -823,7 +840,7 @@ footer{
         align-items: left;
         flex-direction: column;
     }
-
+*/
     .header_links_burger{
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
@@ -835,7 +852,7 @@ footer{
     transition: color 0.3s ease-in-out !important;
     padding: 13px;
     }
-*/
+
     .descroption_about_good_wine{
         padding: 0 16px 30px 16px;
         font-size: 14px;
